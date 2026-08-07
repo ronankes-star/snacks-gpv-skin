@@ -4,9 +4,9 @@
    then re-run build.ps1. Do not edit skin.css directly.
    ============================================================ */
 
-/* Page background â€” dark so the captured window doesn't show a white box */
+/* Page background â€” pure black so the captured window blends into the stream */
 html, body {
-  background: #101216 !important;
+  background: #000000 !important;
 }
 
 /* Body */
