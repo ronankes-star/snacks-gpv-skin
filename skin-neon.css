@@ -146,10 +146,15 @@ html, body {
   top: 181px !important;
   left: 92px !important;
 }
+.controller.custom .dpad,
+.controller.xbox .dpad {
+  background: none !important;
+}
 .controller.custom .face,
 .controller.xbox .face {
   position: absolute !important;
   margin: 0 !important;
+  opacity: 1 !important;
 }
 .controller.custom .face.up, .controller.custom .face.down,
 .controller.xbox .face.up, .controller.xbox .face.down { width: 36px !important; height: 52px !important; }
